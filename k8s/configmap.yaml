@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: chatapp-config
+  namespace: full-stack-chatapp
+data:
+  PORT: "5001"
+  MONGO_HOST: "mongodb-service"
+  MONGO_DB_NAME: "dbname"
